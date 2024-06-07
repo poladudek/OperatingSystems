@@ -1,0 +1,44 @@
+
+
+                      PID: 54278 PPID: 54264 PGID: 54278
+
+                      |                |               |                                                                              
+                      |                |               |                                                                            
+                      |                |               |    
+                 PID: 54279        PID: 54280     PID: 54281
+                PPID: 54278       PPID: 54278    PPID: 54278
+                PGID: 54278       PGID: 54278    PGID: 54278
+               |           |              |                                                                              
+               |           |              |                                                                            
+               |           |              |   
+          PID: 54282   PID: 54284     PID: 54283
+         PPID: 54279   PPID: 54279   PPID: 54280
+         PGID: 54278   PGID: 54278   PGID: 54278
+               |
+               |
+               |
+           PID: 54285
+          PPID: 54282
+          PGID: 54278
+
+
+
+
+
+#---- Copy of terminal output:
+
+PID: 54278	 UID: 501	 GID: 20	 PPID: 54264	 PGID: 54278
+
+PID: 54279	 UID: 501	 GID: 20	 PPID: 54278	 PGID: 54278
+PID: 54280	 UID: 501	 GID: 20	 PPID: 54278	 PGID: 54278
+PID: 54281	 UID: 501	 GID: 20	 PPID: 54278	 PGID: 54278
+
+
+
+PID: 54283	 UID: 501	 GID: 20	 PPID: 54280	 PGID: 54278
+PID: 54282	 UID: 501	 GID: 20	 PPID: 54279	 PGID: 54278
+PID: 54284	 UID: 501	 GID: 20	 PPID: 54279	 PGID: 54278
+
+
+
+PID: 54285	 UID: 501	 GID: 20	 PPID: 54282	 PGID: 54278

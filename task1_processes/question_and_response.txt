@@ -1,0 +1,3 @@
+Question: How many processes will be created after calling the fork function n times?
+
+Answer: After calling the fork function n times, (2^n) processes will be created (specifically, 1 parent process and (2^n) - 1 child processes). This happens because the process that calls the fork() function is 'split' into two other processes, and so on. Therefore, the increase in the number of such processes can be described mathematically using an exponential function with a base of 2.
