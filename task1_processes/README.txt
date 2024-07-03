@@ -5,7 +5,7 @@ Author: Pola Dudek
 Krakow 2024
 ------------
 
-The programs perform various tasks on processes using the fork() function and include error handling for selected functions.
+Programs perform various tasks on processes using the fork() function and include error handling for selected functions.
 
 ----------- Description of the programs:
 
